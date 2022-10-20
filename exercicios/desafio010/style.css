@@ -87,7 +87,7 @@ main{
     min-width: 320px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 20px;   
     border-radius: 15px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);   
@@ -105,11 +105,11 @@ main a:hover{
     
 }
 
-main > img{
+main  img{
     width: 90%;
 }
 
-main > img.pequenas{
+main  img.pequenas{
     max-width: 350px;
 
 

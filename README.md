@@ -1,4 +1,7 @@
 # html-css
+curso de html e css do curso em video
 
-<a href="https://rafaaelmamede.github.io/html-css/exercicios/desafio010/desafio.html"> <p>executar desafio 10</p>
+gerenciando repositórios
+
+<a href="https://rafaaelmamede.github.io/html-css/exercicios/desafio010/desafio.html">executar desafio 10
  
