@@ -106,10 +106,10 @@ main a:hover{
 }
 
 main > img{
-    width: 100%;
+    width: 90%;
 }
 
-main > img.pequena{
+main > img.pequenas{
     max-width: 350px;
 
 
