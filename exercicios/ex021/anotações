@@ -1,0 +1,24 @@
+         todo modelo aparente em um codigo é uma caixa 
+       height = altura
+       width = largura
+       border = linha traçada ao redor do conteudo
+       padding = espaço/preenchimento entre o conteudo e a border
+       margin =  espaço externo ao redor da border, separa de um elemento externo
+       outline = contorno da borda
+
+tipos de caixa
+box level = separa e começa em um outro paragrafo.
+-DIV é um exemplo
+-H1 - H6
+-MAIN
+-NAV
+
+inline level = dentro da propia linha onde o texto esta sendo escrito.
+-SPAN é um exemplo de inline level
+-SUP SUB
+-A
+-CODE
+-BUTTON
+
+       
+

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*
+  em html oque é id em css vira #
+  em html é class e em css vira .
+  não se deve usar o mesmo id mais de uma vez dentro de um codigo
+  ja a 'class' pode ser usada mais de uma vez
+  */
+body{
+    background-color:#328288;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+    width: 600px ;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:#1a4146 ;
+}
+h1#principal{
+    text-align: center;
+    text-shadow: 1px 1px  #102a2c ;
+    background-color: #1e4e52 ;
+    color: azure;
+
+}
+h2{
+    color: #EBBB6E;
+}
+.basico{
+    color: rgb(63, 124, 63);
+}
+.avançado{
+    color: rgb(122, 47, 47);
+}
+.destaque{
+    background-color:rgba(189, 75, 75, 0.712);
+} 
