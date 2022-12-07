@@ -15,7 +15,14 @@
         }
         table{
             width: 500px;
-            border-collapse: collapse;       }
+            border-collapse: collapse;       
+        }
+        caption{
+             font-size: 1.5em;
+             font-weight: bold;
+             padding: 10px;
+             background-color: lightgray;
+        }
         td, th{
             border: 1px solid black;
             padding: 10px;
@@ -32,16 +39,23 @@
             text-align: right;
 
         }
-
+        /* CAPTION
+        legenda da tabela
+        th: titulos;
+        td: dados
+        */
     </style>
 </head>
+
 <body>
+
     <h1>uso de tabelas grandes</h1>
     <table>
+        <caption>população das grandes capitais</caption>
         <thead>
             <tr>
-                <th>cidade</th>
-                <th>população</th>
+                <th scope="col">cidade</th>
+                <th scope="col" style="width:100px ;">população</th>
             </tr>
         </thead>
 
@@ -91,7 +105,7 @@
 
         <tfoot>
             <tr>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td class="num"><strong>0000</strong></td>
             </tr>
         </tfoot>
