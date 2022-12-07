@@ -15,7 +15,9 @@
         }
         table{
             width: 500px;
-            border-collapse: collapse;       
+            border-collapse: collapse;
+            position: relative
+
         }
         caption{
              font-size: 1.5em;
@@ -27,16 +29,22 @@
             border: 1px solid black;
             padding: 10px;
         }
-        thead{
+        thead, tfoot{
             background-color: gray;
-            color: aliceblue;
+            color: aliceblue;       
         }
-        tfoot{
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
             background-color: gray;
-            color: aliceblue;
         }
+
         td.num{
             text-align: right;
+
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
 
         }
         /* CAPTION
@@ -110,5 +118,13 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis ex inventore nesciunt sequi atque. Fuga minus corporis obcaecati molestiae, ipsam temporibus aut aspernatur, dolorum nulla, adipisci unde nesciunt minima!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis ex inventore nesciunt sequi atque. Fuga minus corporis obcaecati molestiae, ipsam temporibus aut aspernatur, dolorum nulla, adipisci unde nesciunt minima!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis ex inventore nesciunt sequi atque. Fuga minus corporis obcaecati molestiae, ipsam temporibus aut aspernatur, dolorum nulla, adipisci unde nesciunt minima!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis ex inventore nesciunt sequi atque. Fuga minus corporis obcaecati molestiae, ipsam temporibus aut aspernatur, dolorum nulla, adipisci unde nesciunt minima!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis ex inventore nesciunt sequi atque. Fuga minus corporis obcaecati molestiae, ipsam temporibus aut aspernatur, dolorum nulla, adipisci unde nesciunt minima!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis ex inventore nesciunt sequi atque. Fuga minus corporis obcaecati molestiae, ipsam temporibus aut aspernatur, dolorum nulla, adipisci unde nesciunt minima!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis ex inventore nesciunt sequi atque. Fuga minus corporis obcaecati molestiae, ipsam temporibus aut aspernatur, dolorum nulla, adipisci unde nesciunt minima!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis ex inventore nesciunt sequi atque. Fuga minus corporis obcaecati molestiae, ipsam temporibus aut aspernatur, dolorum nulla, adipisci unde nesciunt minima!</p>
 </body>
 </html>
